@@ -31,7 +31,8 @@ h2 {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin-top: 5px;
@@ -58,3 +59,18 @@ button:hover {
 label {
     display: block;
 }
+
+.registration-container {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+/* input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
