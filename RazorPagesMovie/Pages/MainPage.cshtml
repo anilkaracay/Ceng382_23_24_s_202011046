@@ -4,9 +4,7 @@
     ViewData["Title"] = "Home page";
 }
 
-<h1>
-    <a class="nav-link text-dark" asp-area="" asp-page="/MainPage">Main Page</a>
-</h1>
+<button onClick="toggleVisibility()" class="btn btn-secondary w-10 mt-2 py-2" type="button">Enable/Disable</button>
 <div class="d-flex align-items-center py-4 bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
@@ -86,9 +84,10 @@
     </div>
 
 
-    <main class="form-signin w-100 m-auto">
+    <main id="disabled" class="form-signin w-100 m-auto">
+
         <form>
-            <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">
@@ -113,5 +112,9 @@
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="~/js/disable.js">
+    </script>
+
+
 
 </div>
