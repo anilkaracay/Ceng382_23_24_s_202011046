@@ -5,6 +5,30 @@
 }
 
 <button onClick="toggleVisibility()" class="btn btn-secondary w-10 mt-2 py-2" type="button">Enable/Disable</button>
+
+
+<div class="text-center mt-4">
+    <button onclick="toggleSumForm()" class="btn btn-info">Show/Hide Sum Form</button>
+</div>
+<div id="sumForm" class="container mt-4" style="display:none;">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="additionForm">
+                <h1 class="h3 mb-3 fw-normal text-center">Calculate Sum</h1>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="sumInput1" placeholder="Enter number">
+                    <label for="sumInput1">Enter number:</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="sumInput2" placeholder="Enter number">
+                    <label for="sumInput2">Enter number:</label>
+                </div>
+                <button type="button" class="btn btn-primary w-100" onclick="calculateSum()">Calculate Sum</button>
+            </form>
+            <div id="result" class="alert alert-success mt-3" style="display:none;"></div>
+        </div>
+    </div>
+</div>
 <div class="d-flex align-items-center py-4 bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
@@ -108,11 +132,16 @@
             <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
             <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
         </form>
+
     </main>
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="~/js/disable.js">
+    </script>
+    <script src="~/js/hide.js">
+    </script>
+    <script src="~/js/calculate.js">
     </script>
 
 

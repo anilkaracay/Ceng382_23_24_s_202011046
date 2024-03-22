@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/anilkaracay/Desktop/Ceng382_23_24_s_202011046/RazorPagesMovie/wwwroot/js/disable.js",
+      "PackagePath": "staticwebassets/js/disable.js"
+    },
+    {
       "Id": "/Users/anilkaracay/Desktop/Ceng382_23_24_s_202011046/RazorPagesMovie/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
